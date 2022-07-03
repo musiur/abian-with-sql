@@ -15,7 +15,7 @@ exports.login = (req, res) => {
             if (verified) {
               return res.status(200).send({
                 message: "Login Successfully!",
-                result,
+                result: result[0],
               });
             } else {
               return res.status(401).send({
