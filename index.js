@@ -5,6 +5,7 @@ const register = require("./routes/register.route");
 const admin_register = require("./routes/admin_register.route");
 const login = require("./routes/login.route");
 const admin_login = require("./routes/admin_login.route");
+const users = require("./routes/users.route");
 const test = require("./routes/test.route");
 const app = express();
 const DB = require("./database");
@@ -36,6 +37,7 @@ app.use(register);
 app.use(admin_register);
 app.use(login);
 app.use(admin_login);
+app.use(users);
 app.use(test);
 
 app.get(test);

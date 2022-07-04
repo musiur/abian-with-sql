@@ -28,6 +28,7 @@ exports.admin_register = (req, res) => {
                 email,
                 password: hashedPassword,
                 created_at: new Date(),
+                member_type: "admin"
               },
               (err1, result1) => {
                 // insertion status checking

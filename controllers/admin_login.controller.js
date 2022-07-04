@@ -35,7 +35,7 @@ exports.admin_login = (req, res) => {
       }
     );
   } else {
-    return res.status(400).send({
+    return res.status(401).send({
       message: "Bad request!",
     });
   }
