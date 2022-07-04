@@ -15,6 +15,17 @@ create table users (
     phone varchar(14),
     donation_list varchar(250)
 )
+create table admins (
+    id int primary key AUTO_INCREMENT,
+    username varchar(250),
+    email varchar(250),
+    password varchar(250),
+    fullname varchar(250),
+    created_at varchar(250),
+    member_type varchar(250),
+    phone varchar(14),
+    donation_list varchar(250)
+)
 ```
 ### With Github:
 Create a github account to be a contributor own or to others.
