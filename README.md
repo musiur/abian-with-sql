@@ -1,8 +1,8 @@
 # abian-with-sql
 
-In Xampp:
-i. At first create the database in xampp and name the databse "abian"
-ii. Then create a table with the below query
+### In Xampp:
+ - At first create the database in xampp and name the databse "abian"
+ - Then create a table with the below query
 ```
 create table users (
     id int primary key AUTO_INCREMENT,
@@ -16,22 +16,23 @@ create table users (
     donation_list varchar(250)
 )
 ```
-With Github:
+### With Github:
 Create a github account to be a contributor own or to others.
 
-With NodeJS:
-i. Install Visual Studio Code, NodeJS, Git
-ii. Run the command on terminal.
+### With NodeJS:
+- Install Visual Studio Code, NodeJS, Git
+- Run the command on terminal.
 ```
 git clone https://github.com/musiur/abian-with-sql.git
 ```
-iii. Open the folder abian-with-sql
-iv. Open terminal and run the command
+- Open the folder abian-with-sql
+- Open terminal and run the command
 ```
 npm install
 ```
 This will install all of the packages need for the backend
-v. Again in terminal run the command
+- Again in terminal run the command by which  Backend will be connected with xampp database.
 ```
 npm run dev
 ```
+
